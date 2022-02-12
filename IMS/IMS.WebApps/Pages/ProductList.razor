@@ -1,0 +1,45 @@
+﻿@page "/products"
+@inject NavigationManager NavigationManager
+@inject IViewProductsByNameUseCase ViewProductsByNameUseCase
+<h3>Product List</h3>
+<br />
+<ViewProductComponent OnSearchProducts="OnSearchProducts"></ViewProductComponent>
+
+@if (listProducts != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in this.listProducts)
+            {
+                <ProductItemComponent Product="product"></ProductItemComponent>
+            }
+        </tbody>
+    </table>
+}
+<br />
+<button type="button" class="btn btn-primary" @onclick="AddProduct">Add Product</button>
+@code {
+    private List<Product>? listProducts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var product = await ViewProductsByNameUseCase.ExecuteAsync();
+        this.listProducts = product.ToList();
+    }
+    public void OnSearchProducts(List<Product> products)
+    {
+        this.listProducts = products;
+    }
+    public void AddProduct()
+    {
+        NavigationManager.NavigateTo("/addproduct");
+    }
+}

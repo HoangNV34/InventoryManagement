@@ -1,0 +1,112 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IMS.WebApps
+build_property.RootNamespace = IMS.WebApps
+build_property.ProjectDir = D:\Source\InventoryManagementSystem\InventoryManagement\IMS\IMS.WebApps\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Source\InventoryManagementSystem\InventoryManagement\IMS\IMS.WebApps
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Controls/InventoryItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcSW52ZW50b3J5SXRlbUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Controls/ProductInventoriesComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcUHJvZHVjdEludmVudG9yaWVzQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Controls/ProductItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcUHJvZHVjdEl0ZW1Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Controls/ViewInventoriesComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcVmlld0ludmVudG9yaWVzQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Controls/ViewProductComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcVmlld1Byb2R1Y3RDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Pages/AddInventory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkSW52ZW50b3J5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Pages/AddProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Pages/EditInventory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEludmVudG9yeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Pages/InventoryList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5TGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Pages/ProductList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdExpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-oo87bmr9eu
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dp3lt0gtlh
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Areas/Identity/Pages/Account/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Source/InventoryManagementSystem/InventoryManagement/IMS/IMS.WebApps/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

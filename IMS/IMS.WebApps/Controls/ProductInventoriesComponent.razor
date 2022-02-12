@@ -1,0 +1,60 @@
+﻿
+<div class="form-group">
+    <lable>Inventories</lable>
+    <ViewInventoriesComponent DisplaySearchResult="true" OnSelectInventory="OnSelectInventory">
+
+    </ViewInventoriesComponent>
+</div>
+
+
+@if (ProductInventories != null && ProductInventories.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ProductInventory in this.ProductInventories)
+            {
+                <tr>
+                    <td>@ProductInventory.Inventory.InventoryName</td>
+                    <td>
+                        <input type="number" min="0"  @bind-value="ProductInventory.InventoryQuantity" 
+                            @bind-value:event="oniput"
+                            @onchange="OnInventoryQtyChanged"
+                        />
+                    </td>
+                    <td><button class="btn btn-link" type="button" @onclick="@(() => RemoveInventory(ProductInventory) )">Remove</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@code {
+
+    [Parameter]
+    public EventCallback<List<ProductInventory>> OnInventorySelected {get;set;}
+
+    public List<ProductInventory> ProductInventories = new List<ProductInventory>();
+
+    public async Task OnSelectInventory(Inventory inventory)
+    {
+        if (!ProductInventories.Any(x => x.Inventory.InventoryName.Equals(inventory.InventoryName, StringComparison.OrdinalIgnoreCase)))
+        {
+            this.ProductInventories.Add(new ProductInventory { InventoryId = inventory.InventoryId, Inventory = inventory });
+        }
+       
+    }
+    public void RemoveInventory(ProductInventory ProductInventory)
+    {
+        this.ProductInventories.Remove(ProductInventory);
+    }
+    public async Task OnInventoryQtyChanged()
+    {
+         await OnInventorySelected.InvokeAsync(this.ProductInventories);
+    }
+}
